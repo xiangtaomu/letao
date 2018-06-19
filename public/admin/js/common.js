@@ -18,7 +18,7 @@ $(document).ajaxStop(function () {
 
 // 二级分类的显示与隐藏
 $(".child").prev().on("click",function () {  
-  $(this).next().slideToggle()
+  $(this).next().slideToggle();
 } );
 
 // 侧边栏的显示与隐藏
