@@ -5,6 +5,10 @@
 .mt_150{
   margin-top: 150px;
 }
+.mb_15{
+  margin-bottom: 15px;
+}
+
 html,body{
 height: 100%;
 }
