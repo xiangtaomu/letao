@@ -13,7 +13,7 @@ $(document).ajaxStop(function () {
   // NProgress.done();
   setTimeout(function () {  
     NProgress.done();
-  },5000);
+  },500);
 }); 
 
 // 二级分类的显示与隐藏
