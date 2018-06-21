@@ -11,17 +11,22 @@
   padding: 10px;
 }
 
-.lt_product a{
+.lt_product li {
   float: left;
-  width: 48%;
+  width: 49%;
+  margin-bottom: 10px;
+}
+
+.lt_product a{
+  display: block;
+  width: 100%;
   border: 1px solid #ccc;
   text-align: center;
-  margin-bottom: 10px;
   padding: 10px;
 }
 
-.lt_product a:nth-child(even) {
-  margin-left: 4%;
+.lt_product li:nth-child(even) {
+  margin-left: 2%;
 }
 
 .lt_product .price{
