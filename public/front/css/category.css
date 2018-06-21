@@ -1,0 +1,50 @@
+.main_left{
+  width: 90px;
+  height: 100%;
+  float: left;
+  position: relative;
+  background-color: pink;
+}
+.main_left li {
+  height: 50px;
+  line-height: 50px;
+  border-right: 1px solid red;
+  border-bottom: 1px solid red;
+}
+.main_left li.now{
+  border-right: none;
+  background-color: #fff;
+}
+.main_left ul a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+
+
+.main_right{
+  overflow: hidden;
+  height: 100%;
+  position: relative;
+}
+.main_right ul{
+  width: 100%;
+}
+.main_right ul li{
+  float: left;
+  width: 33.33%;
+}
+.main_right ul img{
+  display: block;
+  width: 62px;
+  height: 62px;
+  margin: 0 auto;
+}
+.main_right ul p{
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  
+}
