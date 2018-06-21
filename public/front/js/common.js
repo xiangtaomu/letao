@@ -1,7 +1,8 @@
 
   // 滑动效果
   mui('.mui-scroll-wrapper').scroll({
-    deceleration: 0.0005 
+    deceleration: 0.0005 ,
+    indicators: false //是否显示滚动条
   });
 
   // 轮播图
