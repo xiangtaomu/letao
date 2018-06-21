@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img{
+  display: block;
+  width: 100%;
+}
+
+html,body{
+  height: 100%;
+}
+
+.lt_container{
+  width: 100%;
+  height: 100%;
+  max-width: 640px;
+  min-width: 320px;
+  background-color: pink;
+  margin: 0 auto;
+  position: relative;
+  padding-top:45px ;
+  padding-bottom:55px;
+}
+
+/* 头部 */
+.lt_header{
+  width: 100%;
+  max-width: 640px;
+  height: 45px;
+  line-height: 45px;
+  background-color: #069;
+  position: absolute;
+  top: 0;
+  z-index: 999;
+}
+
+.lt_header .left,
+.lt_header .right{
+  width: 45px;
+  height: 45px;
+  color: #fff;
+  line-height: 45px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+
+}
+.lt_header .left{
+left: 0;
+}
+.lt_header .right{
+  right: 0;
+}
+
+.title h4 {
+  margin: 0 45px 0 45px;
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+
+/* 底部 */
+.lt_footer{
+  width: 100%;
+  max-width: 640px;
+  height: 55px;
+  /* line-height: 55px; 不可以在包两行标签的时候设行高,且会继承*/
+  background-color: #069;
+  position: absolute;
+  bottom: 0;
+  z-index: 999;
+
+}
+
+.lt_footer li{
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.lt_footer li a{
+  display: block;
+  /* width: 100%; 会继承,但必须转成块元素 */
+  color: #fff;
+}
+.lt_footer li p{
+  color: #fff;
+}
+.lt_footer li.now a{
+  color: darkorange
+}
+.lt_footer li.now p{
+  color: darkorange
+}
+
+/* 主要内容 */
+.lt_main{
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+}
