@@ -13,6 +13,7 @@ Brand.addSecondCategory = function (brand, callback) {
     if (err) {
       return callback(err);
     }
+    
     callback(err, result);
   });
 };
